@@ -29,8 +29,20 @@ class TQAgent:
         # 'len(gameboard.tiles)' number of different tiles
         # 'self.episode_count' the total number of episodes in the training
 
+        """
+        Firstly we initialize the actions. There's two different kind of actions that can be taken either move the tile
+        horizontally or rotate it 90 degrees. This can be represented by a binary number. E.g. (0,0) this would mean
+        that the tile will be dropped in the left most position without any rotation.
+        """
+        self.actions = [(i, j) for i in range(4) for j in range(4)] + [(3, 0)]
+        self.state = 0
+        self.Qtable = 0
+        self.rewards_storage = np.zeros(self.episode_count)
+
+
+
     def fn_load_strategy(self,strategy_file):
-        pass
+        self.Qtable = np.load(strategy_file)
         # TO BE COMPLETED BY STUDENT
         # Here you can load the Q-table (to Q-table of self) from the input parameter strategy_file (used to test how the agent plays)
 
