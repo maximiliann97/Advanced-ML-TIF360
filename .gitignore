@@ -1,4 +1,5 @@
 hwa_venv/
+HW B/venv/
 data/Planetoid/Cora/processed/data.pt
 data/Planetoid/Cora/processed/pre_filter.pt
 data/Planetoid/Cora/processed/pre_transform.pt
