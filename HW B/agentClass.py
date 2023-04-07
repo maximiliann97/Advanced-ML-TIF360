@@ -8,15 +8,15 @@ import h5py
 
 class TQAgent:
     # Agent for learning to play tetris using Q-learning
-    def __init__(self,alpha,epsilon,episode_count):
+    def __init__(self, alpha, epsilon, episode_count):
         # Initialize training parameters
-        self.alpha=alpha
-        self.epsilon=epsilon
-        self.episode=0
-        self.episode_count=episode_count
+        self.alpha = alpha
+        self.epsilon = epsilon
+        self.episode = 0
+        self.episode_count = episode_count
 
-    def fn_init(self,gameboard):
-        self.gameboard=gameboard
+    def fn_init(self, gameboard):
+        self.gameboard = gameboard
         # TO BE COMPLETED BY STUDENT
         # This function should be written by you
         # Instructions:
