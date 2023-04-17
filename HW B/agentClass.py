@@ -53,7 +53,7 @@ class TQAgent:
         # Instructions:
         # In this function you could calculate the current state of the gane board
         # You can for example represent the state as an integer entry in the Q-table
-        # This function should not return a value, store the state as an attribute of self
+        # This function should not return a value, store the state as an attribute of self0
 
         # Useful variables: 
         # 'self.gameboard.N_row' number of rows in gameboard
