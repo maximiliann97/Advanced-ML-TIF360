@@ -1,6 +1,7 @@
 hwa_venv/
 HW B/venv/
 hwc_venv/
+HW C/autoencoder_bottleneck_size=16/
 HW C/autoencoder_bottleneck_size=64/
 HW C/autoencoder_bottleneck_size=128/
 HW C/autoencoder_bottleneck_size=256/
