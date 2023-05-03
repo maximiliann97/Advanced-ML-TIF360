@@ -18,3 +18,5 @@ data/Planetoid/Cora/raw/ind.cora.x
 data/Planetoid/Cora/raw/ind.cora.y
 graph_data_decoding_2023.pt
 HW C/video_data.npy
+HW C/size=2000_train_data.npy
+HW C/size=20_val_data.npy
