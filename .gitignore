@@ -5,6 +5,8 @@ HW C/autoencoder_bottleneck_size=16/
 HW C/autoencoder_bottleneck_size=64/
 HW C/autoencoder_bottleneck_size=128/
 HW C/autoencoder_bottleneck_size=256/
+HW C/LSTM_1_layer
+HW C/transformer_wide_network
 data/Planetoid/Cora/processed/data.pt
 data/Planetoid/Cora/processed/pre_filter.pt
 data/Planetoid/Cora/processed/pre_transform.pt
