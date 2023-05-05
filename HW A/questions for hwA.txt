@@ -1,0 +1,18 @@
+Supervised learning is used when there is a large amount of labeled data available and the goal is to achieve the highest possible accuracy. Semi-supervised learning, on the other hand, is useful when the amount of labeled data is limited and the goal is to improve the accuracy of the model using the additional information provided by the unlabeled data. The choice between the two depends on the availability of labeled data and the specific requirements of the application.
+
+
+t-SNE is used to visualize high-dimensional data in a lower-dimensional space, typically two dimensions, in order to gain insights into the structure of the data and identify patterns and relationships that may not be apparent in the high-dimensional space.
+
+1. GCNConv layer: This layer performs graph convolution using a normalized adjacency matrix, which allows it to aggregate information from neighboring nodes in the graph. GCNConv layers are computationally efficient and have been shown to be effective for learning node embeddings in graph-based classification tasks.
+
+2. GATConv layer: This layer performs graph convolution using attention-based mechanisms, which allows it to capture more complex relationships between nodes in the graph. GATConv layers are particularly effective for graphs where nodes have varying degrees of importance, and have been shown to outperform GCNConv layers on certain tasks.
+
+3. GraphConv layer: This layer performs graph convolution using a learned edge weight matrix, which allows it to capture more complex relationships between nodes in the graph. GraphConv layers are particularly effective for graphs where the edges have complex, nonlinear relationships.
+
+4. Linear layer: This layer performs a linear transformation of the input, allowing the model to learn higher-level representations of the data.
+
+5. BatchNorm1d layer: This layer normalizes the output of the preceding layer, which helps to reduce overfitting and improve the generalization of the model to new data.
+
+6. Dropout layer: This layer randomly drops out nodes in the network during training, which helps to prevent overfitting and improve the generalization of the model to new data.
+
+Overall, the different layers in this GNN architecture are designed to work together to learn increasingly complex representations of the input data as it passes through the network, while also incorporating techniques to prevent overfitting and improve the generalization of the model to new data.

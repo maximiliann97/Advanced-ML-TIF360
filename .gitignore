@@ -7,18 +7,18 @@ HW C/autoencoder_bottleneck_size=128/
 HW C/autoencoder_bottleneck_size=256/
 HW C/LSTM_1_layer
 HW C/transformer_wide_network
-data/Planetoid/Cora/processed/data.pt
-data/Planetoid/Cora/processed/pre_filter.pt
-data/Planetoid/Cora/processed/pre_transform.pt
-data/Planetoid/Cora/raw/ind.cora.allx
-data/Planetoid/Cora/raw/ind.cora.ally
-data/Planetoid/Cora/raw/ind.cora.graph
-data/Planetoid/Cora/raw/ind.cora.test.index
-data/Planetoid/Cora/raw/ind.cora.tx
-data/Planetoid/Cora/raw/ind.cora.ty
-data/Planetoid/Cora/raw/ind.cora.x
-data/Planetoid/Cora/raw/ind.cora.y
-graph_data_decoding_2023.pt
+HW A/data/Planetoid/Cora/processed/data.pt
+HW A/data/Planetoid/Cora/processed/pre_filter.pt
+HW A/data/Planetoid/Cora/processed/pre_transform.pt
+HW A/data/Planetoid/Cora/raw/ind.cora.allx
+HW A/data/Planetoid/Cora/raw/ind.cora.ally
+HW A/data/Planetoid/Cora/raw/ind.cora.graph
+HW A/data/Planetoid/Cora/raw/ind.cora.test.index
+HW A/data/Planetoid/Cora/raw/ind.cora.tx
+HW A/data/Planetoid/Cora/raw/ind.cora.ty
+HW A/data/Planetoid/Cora/raw/ind.cora.x
+HW A/data/Planetoid/Cora/raw/ind.cora.y
+HW A/graph_data_decoding_2023.pt
 HW C/video_data.npy
 HW C/size=2000_train_data.npy
 HW C/size=20_val_data.npy
